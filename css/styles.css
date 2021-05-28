@@ -1,0 +1,256 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --logo-color: #2196f3;
+  --black-grey-color: #212121;
+  --white-color: #ffffff;
+  --grey-color: #757575;
+}
+
+body {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Header */
+
+.header {
+  background: var(--white-color);
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--black-grey-color);
+}
+
+.header-logo-site {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  cursor: default;
+}
+
+.header-logo-apart-site {
+  color: var(--logo-color);
+}
+
+.header-nav-button:hover,
+.header-nav-button:focus {
+  color: var(--logo-color);
+  cursor: pointer;
+}
+
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--grey-color);
+}
+
+.header-contacts-button:hover,
+.header-contacts-button:focus {
+  color: var(--logo-color);
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo-site {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.footer-logo-apart-site {
+  color: var(--logo-color);
+}
+
+.footer .footer-address {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo-site,
+.footer-address,
+.footer-contacts {
+  font-style: normal;
+  cursor: default;
+}
+
+/* INDEX.html */
+/* One section */
+
+.one-section {
+  background: #2f303a;
+}
+
+.one-section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.one-section-button {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.one-section-button-content {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+
+/* Two section */
+
+.two-section {
+  background: #e5e5e5;
+}
+
+.two-section-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-grey-color);
+}
+
+.two-section-text {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+
+/* Three section */
+
+.three-section {
+  background: #e5e5e5;
+}
+
+.three-four-sections-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-grey-color);
+}
+
+/* Four section */
+
+.four-section {
+  background: #f5f4fa;
+}
+
+.three-four-sections-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-grey-color);
+}
+
+.four-section-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-grey-color);
+}
+
+.four-section-position {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
+
+/* PORTFOLIO.html */
+/* Section */
+
+.portfolio-section {
+  background: #e5e5e5;
+}
+
+/* Buttons ul */
+.portfolio-section-button {
+  font-family: inherit;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.portfolio-section-button-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-grey-color);
+}
+
+.portfolio-section-button:hover,
+.portfolio-section-button:focus {
+  background: #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-section-button-content:hover,
+.portfolio-section-button-content:focus {
+  color: var(--white-color);
+}
+
+/* Two ul */
+
+.portfolio-section-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-grey-color);
+}
+
+.portfolio-section-text {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--grey-color);
+}
