@@ -2,23 +2,20 @@
 
 /* ===== ДОПОЛНЕНИЯ от Sandra Hrevtsova ===== */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 ul,
 ol {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 a {
   text-decoration: none;
   color: inherit;
   display: inline-block;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 code,
