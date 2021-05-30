@@ -16,22 +16,22 @@
         <header class="header">
             <!-- about name and contacts -->
             <div class="container">
-                <nav class="nav">
-                    <ul class="header-nav">
-                        <li>
-                            <a href="#" class="header-logo-site"><span class="header-logo-apart-site">Web</span>Studio</a>
-                        </li>
-                        <li class="header-nav-button"> 
-                            <a href="./index.html">Студия</a>
-                        </li>
-                        <li class="header-nav-button">
-                            <a href="./portfolio.html">Портфолио</a>
-                        </li>
-                        <li class="header-nav-button">
-                            <a href="#">Контакты</a>
-                        </li>
-                    </ul>
-                    <ul class="header-contacts">
+                <div class="header-container">
+                    <nav class="header-nav">
+                        <a href="#" class="header-logo-site"><span class="header-logo-apart-site">Web</span>Studio</a>
+                        <ul class="header-nav-items">
+                            <li class="header-nav-button"> 
+                                <a href="./index.html">Студия</a>
+                            </li>
+                            <li class="header-nav-button">
+                                <a href="./portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="header-nav-button">
+                                <a href="#">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="header-contacts-items">
                         <li class="header-contacts-button">
                             <a href="mail:info@devstudio.com">info@devstudio.com</a>
                         </li>
@@ -39,7 +39,7 @@
                             <a href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
         </header>
 
@@ -49,7 +49,7 @@
                 <div class="container">
                     <div class="container-one-section">
                         <h1 class="one-section-title"> Эффективные решения
-                        для вашего бизнеса </h1>
+                        <pre>для вашего бизнеса</pre></h1>
                         <button type="button" class="one-section-button"><span class="one-section-button-content">Заказать услугу</span></button>
                     </div>
                 </div>
@@ -57,25 +57,25 @@
             <section class="two-section">
                 <div class="container">
                     <ul class="two-section-items">
-                        <li>
+                        <li class="two-section-items-li">
                             <h3 class="two-section-title">Внимание к деталям</h3>
                             <p class="two-section-text">
                                 Идейные соображения, а также начало повседневной работы по формированию позиции.
                             </p>
                         </li>
-                        <li>
+                        <li class="two-section-items-li">
                             <h3 class="two-section-title">Пунктуальность</h3>
                             <p class="two-section-text">
                                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                             </p>
                         </li>
-                        <li>
+                        <li class="two-section-items-li">
                             <h3 class="two-section-title">Планирование</h3>
                             <p class="two-section-text">
                                 Равным образом консультация с широким активом в значительной степени обуславливает.
                             </p>
                         </li>
-                        <li>
+                        <li class="two-section-items-li">
                             <h3 class="two-section-title">Современные технологии</h3>
                             <p class="two-section-text">
                                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -132,11 +132,9 @@
         <footer class="footer">
             <!-- address and other info-->
             <div class="container">
+                <a href="#" class="footer-logo-site"><span class="footer-logo-apart-site">Web</span>Studio</a>
                 <address>
                     <ul>
-                        <li>
-                            <a href="#" class="footer-logo-site"><span class="footer-logo-apart-site">Web</span>Studio</a>
-                        </li>
                         <li class="footer-address">
                             <a href="#">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
