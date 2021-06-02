@@ -14,8 +14,8 @@ body {
 
 .container {
   width: 1200px;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -317,7 +317,7 @@ pre {
   margin-bottom: 50px;
 }
 
-.portfolio-section-button:not(last-child) {
+.portfolio-section-button-margin {
   margin-right: 8px;
 }
 
@@ -337,17 +337,13 @@ pre {
 
 .portfolio-section-button:hover,
 .portfolio-section-button:focus {
+  color: white;
   background: #2196f3;
   border-radius: 4px;
   cursor: pointer;
 }
 
 /* Two ul */
-
-.portfolio-container-two-items {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .portfolio-section-two-items {
   display: flex;
